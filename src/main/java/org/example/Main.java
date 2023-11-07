@@ -5,11 +5,15 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
 
+        Pessoa pessoa = new Pessoa("Lucas", 25);
+
         System.out.printf("Hello and welcome!");
 
         for (int i = 1; i <= 5; i++) {
 
             System.out.println("i = " + i);
+
+            System.out.println(pessoa.getNome() + " tem " + pessoa.getIdade() + " anos");
         }
     }
 }
