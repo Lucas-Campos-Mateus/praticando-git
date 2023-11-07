@@ -7,6 +7,7 @@ public class Main {
 
         Pessoa pessoa = new Pessoa("Lucas", 25);
         Pessoa pessoa1 = new Pessoa("Lucas1", 251);
+        Pessoa pessoa2 = new Pessoa("Lucas3", 251);
 
         System.out.printf("Hello and welcome!");
 
@@ -16,6 +17,7 @@ public class Main {
 
             System.out.println(pessoa.getNome() + " tem " + pessoa.getIdade() + " anos");
             System.out.println(pessoa1.getNome() + " tem " + pessoa1.getIdade() + " anos");
+            System.out.println(pessoa2.getNome() + " tem " + pessoa2.getIdade() + " anos");
         }
     }
 }
