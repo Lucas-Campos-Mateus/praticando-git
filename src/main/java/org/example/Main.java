@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args) {
 
         Pessoa pessoa = new Pessoa("Lucas", 25);
+        Pessoa pessoa1 = new Pessoa("Lucas1", 251);
 
         System.out.printf("Hello and welcome!");
 
@@ -14,6 +15,7 @@ public class Main {
             System.out.println("i = " + i);
 
             System.out.println(pessoa.getNome() + " tem " + pessoa.getIdade() + " anos");
+            System.out.println(pessoa1.getNome() + " tem " + pessoa1.getIdade() + " anos");
         }
     }
 }
