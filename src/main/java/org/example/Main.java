@@ -18,6 +18,8 @@ public class Main {
             System.out.println(pessoa.getNome() + " tem " + pessoa.getIdade() + " anos");
             System.out.println(pessoa1.getNome() + " tem " + pessoa1.getIdade() + " anos");
             System.out.println(pessoa2.getNome() + " tem " + pessoa2.getIdade() + " anos");
+
+            System.out.println("OOOOIIIIII");
         }
     }
 }
